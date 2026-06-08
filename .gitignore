@@ -1,4 +1,36 @@
-node_modules/
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+env/
+*.egg
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
 .DS_Store
 Thumbs.db
 *.log
+
+# 数据集与模型 (大文件，不纳入git)
+data/raw/*.jpg
+data/raw/*.png
+data/models/*.pkl
+data/processed/*.npy
+
+# 保持目录结构
+!.gitkeep
+
+# Node
+node_modules/
+
+# Jupyter
+.ipynb_checkpoints/
